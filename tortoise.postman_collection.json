@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "43366aaf-47d4-4adf-8c12-fbc7bda51837",
+		"name": "tortoise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "createPromotion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"countLeft\": 10,\n    \"promotionType\": \"userCount\",\n    \"promotionBenefitPercentage\": 10,\n    \"planId\": \"e6434c65-db19-4140-a917-c4772033c9b1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/createPromotion/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"createPromotion",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createPlan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"countLeft\": 10,\n    \"promotionType\": \"userCount\",\n    \"promotionBenefitPercentage\": 10,\n    \"planId\": \"e6434c65-db19-4140-a917-c4772033c9b1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/createPromotion/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"createPromotion",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createGoal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/createGoals",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"createGoals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPlans",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "getPromotions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "getUserGoals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "getPlansById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
